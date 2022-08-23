@@ -4,7 +4,7 @@
 
 A partir du MCD reproduire une base de données.
 
-![](../../../Users/Dell/Documents/simplon/MCD/mcd-comics.png)
+![](/mcd-comics.png)
 
 Travail individuel.
 
