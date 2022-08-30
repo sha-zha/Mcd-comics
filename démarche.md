@@ -1,3 +1,4 @@
+### Recherche
 j'ai fais une recherche sur les récompenses des comics. 
 
 j'ai trouvé que lors du : 
@@ -6,8 +7,7 @@ pour le  les séries Bitter Root et Something is Killing the Children ont toutes
 
 source : https://www.bubblebd.com/9emeart/bd/actualites/eisner-award-2022-palmares-de-la-plus-prestigieuses-des-recompenses-aux-usa
 
-### MCD 
-
+### Modifications MCD
 J'ai donc changé la relation recompences pour qu'on puisse mettre à plusieurs comics la même récompense. 
 
 > avant comics 1,1 et recompences 1,n
@@ -27,7 +27,7 @@ J'ai pris la décision de ne pas recréer plusieurs fois le même éditeur pour 
 j'ai pris la décision de remplacer le champ annees de type vachar en debut_periode et fin_periode, car on attend une période. 
 Mysql gère les dates donc il me semblait mieux de faire 2 champs de date.
 
->avant epoques champ annees 
+> avant epoques champ annees 
 > 
 > après epoques debut_periode et fin_periode
 
