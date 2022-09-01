@@ -13,12 +13,12 @@ source : https://www.bubblebd.com/9emeart/bd/actualites/eisner-award-2022-palmar
 ### nommage
 
 1. J'ai mis tous les noms des entités en minuscule car cela correspond au norme de mon entreprise.
-2. J'ai unifié  le nommage id et identifiant. J'ai id partout car c'est la norme de Laravel. 
+2. J'ai unifié le nommage id et identifiant. J'ai mis id partout car c'est la norme de Laravel et la majorité d'autres framework. 
 3. Je suis passé du nommage en CamelCase au nommage SnakeCase car c'est la norme de Laravel.
 
 ### justifications
 
-J'ai donc changé la relation recompences pour qu'on puisse mettre à plusieurs comics la même récompense. On peut avoir ce cas comme vu dans ma recherche.
+J'ai donc changé la cardinalité recompences pour qu'on puisse mettre à plusieurs comics la même récompense. On peut avoir ce cas comme vu dans ma recherche.
 
 > avant comics 1,1 et recompences 1,n
 >
@@ -50,9 +50,9 @@ Car on peut tomber sur le cas où il y a plusieurs personnes qui travaillent sur
 >
 > après dessinateurs ON et comics ON / scenaristes ON et comics ON
 
-J'ai pris la décision de changer la relation de personnages et comics. 
+J'ai pris la décision de changer la cardinalité de personnages et comics. 
 Car il peut créer un personnage qui n'apparaît pas encore dans un comics.
 
-J'ai pris la décision de changer la relation de series et comics car un comic peut être un hors-série. 
+J'ai pris la décision de changer la cardinalité de series et comics car un comic peut être un hors-série. 
 
-J'ai pris la décision de changer la relation de collections et comics car un comic n'appartient pas forcément à une collection 
+J'ai pris la décision de changer la cardinalité de collections et comics car un comic n'appartient pas forcément à une collection 
